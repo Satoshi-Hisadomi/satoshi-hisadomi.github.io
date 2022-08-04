@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="好きなもの検索">
+    <title>Hisadomiの好きな〇〇検索 | DIG8 report</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="entry">
+
+<header>
+    <h1><a href="index.html"><img src="images/home.png" alt="ホーム"></a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="access.html">ロケーション</a></li>
+            <li><a href="entry.html">好きな〇〇検索</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="title">
+        <h1>Hisadomiの好きな〇〇検索</h1>
+        <ol>
+            <li><a href="index.html">ホーム</a></li>
+            <li>好きな〇〇検索</li>
+        </ol>
+    </div>
+    <div class="inner">
+        <p>検索したいものをチェックし「検索」をダブルクリックしてください。</p>
+        <form>
+
+            <dl>
+                <dt>好きな食べ物</dt>
+                <dd>
+                    <input type="radio" name="like" value="food">
+                </dd>
+                <dt>好きな飲み物</dt>
+                <dd>
+                    <input type="radio" name="like" value="drink">
+                </dd>
+                <dt>好きなスポーツ</dt>
+                <dd>
+                    <input type="radio" name="like" value="sport">
+                </dd>
+                <dt>好きな色</dt>
+                <dd>
+                    <input type="radio" name="like" value="color">
+                </dd>
+                <dt>好きなアーティスト</dt>
+                <dd>
+                    <input type="radio" name="like" value="artist">
+                </dd>
+                <dt>好きな女優</dt>
+                <dd>
+                    <input type="radio" name="like" value="actor">
+                </dd>
+                <dt>好きなブランド</dt>
+                <dd>
+                    <input type="radio" name="like" value="brand">
+                </dd>
+                <dt>好きな漫画</dt>
+                <dd>
+                    <input type="radio" name="like" value="manga">
+                </dd>
+            </dl>
+
+            <p class="submit"><input type="button" name="submit" value="検索する（ダブルクリック）" ondblclick="buttonClick()"></p>
+        </form>
+        <script type="text/javascript" src="js/script.js"></script>
+    </div>
+</main>
+
+<footer>
+    <ul>
+        <li><a href="sitemap.html">サイトマップ</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
